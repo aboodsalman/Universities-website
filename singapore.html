@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Singapore</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">SINGAPORE</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/singapore2.jpg"></div>
+<div class="wallpaper2"><img src="assets/singapore2.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Singapore University</h1>
+  
+  <p>The National University of Singapore (NUS) is a public research university in Singapore. Founded in 1905 as the Straits Settlements and Federated Malay States Government Medical School, NUS is the oldest higher education institution in Singapore. It is consistently ranked within the top 100 universities in the world and the top 3 universities in the Asia-Pacific. NUS is a comprehensive research university, offering a wide range of disciplines, including the sciences, medicine and dentistry, design and environment, law, arts and social sciences, engineering, business, computing and music at both the undergraduate and postgraduate levels. NUS's main campus is located in the southwestern part of Singapore, adjacent to Kent Ridge, accommodating an area of 150 ha (0.58 sq mi).[7] The Duke-NUS Medical School, which is a postgraduate medical school in collaboration with Duke University, is located at the Outram campus. Its Bukit Timah campus houses the Faculty of Law and Lee Kuan Yew School of Public Policy. The Yale-NUS College, which is a liberal arts college created in collaboration with Yale University, is located at University Town. NUS incorporates four national level institutes, honoured as research centre of excellence in Singapore, which includes the Mechanobiology Institute. NUS has a Nobel Laureate (Konstantin Novoselov) on its faculty</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Singapore admission requirements</h1>
+  <p>Often it may be difficult to obtain admission to Singaporean universities, given the competition from students all over the world and the limited field of admission. Most universities require applicants evidence of English language proficiency, which can be obtained through an English language test such as TOEFL or IELTS.
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/african.jpeg"><img class="img2" src="assets/singapore.jpeg"><img class="img3" src="assets/read.jpeg"><img class="img4" src="assets/books.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Singapore University majors</h1>
+
+<p>
+-Electrical & Electronic Engineering</br>
+-Mechanical & Aerospace Engineering</br>
+-Civil Engineering</br>
+-Chemical Engineering</br>
+-General Engineering</br>
+-Medicine & Dentistry</br>
+-Other Health</br>
+-Sport Science</br>
+-Agriculture & Forestry</br>
+-Biological Sciences</br>
+-Mathematics & Statistics</br>
+-Chemistry</br>
+-Physics & Astronomy</br>
+-Accounting & Finance</br>
+-Business & Management</br>
+-Economics & Econometrics</br>
+-Law</br>
+-Politics & International Studies (incl Development Studies)</br>
+-Communication & Media Studies</br>
+-Sociology</br>
+-Geography</br>
+-History, Philosophy & Theology</br>
+-Architecture</br>
+-Art, Performing Arts & Design</br>
+-Languages, Literature & Linguistics</br>
+-Psychology</br>
+</p>
+</div>
+<div class="boss"><center><img src="assets/chye.jpg"><h3>Tan Eng Chye</h3><p>The President Of Singapore University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/singaporegps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/LuJKrTGKFpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.smu.edu.sg/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

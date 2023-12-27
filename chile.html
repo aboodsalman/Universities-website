@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chile</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">CHILE</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/chile2.jpg"></div>
+<div class="wallpaper2"><img src="assets/chile2.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Chile University</h1>
+  
+  <p>The University of Chile was founded on the 19th of November, 1842. It is the oldest higher education institution in Chile. Generating, developing, integrating and communicating knowledge in all the areas of knowledge and culture are the mission and basis of the activities of the University. This makes up the involvedness of their work and directs the education they impart.</p>
+  <p>Among the first Presidents are the founder, the Venezuelan humanist and jurist Andrés Bello (1843 – 1865), and the Polish scientist and mineralogist Ignacio Domeyko Ancuta (1867 – 1883).</p>
+  <p>The University is located in the capital city Santiago de Chile and it is a public university with international quality. All the areas of knowledge are elaborated in their lecture halls and today the university is at the top of the Chilean university system with regard to teaching, research, creation and outreach.</p>
+</br>
+</div>
+<div id="admission" class="par">
+</br>
+  <h1>Chile admission requirements</h1>
+
+  <p>International students have two different ways to register Chilean universities.</p>
+
+<p>The first option is to undergo the same admission process that Chilean students receive, which is determined by the results of a test called the University Selection Test (PSU). Each university selects students based on their PSU score and high school performance.</p>
+
+<p>The PSU takes place between November and December and in order to do this, you must register online several months ago.</p>
+
+<p>This admission process is followed in all public universities and some private universities. Others usually use their own tests to choose their new students.</p>
+<p>The second option that foreign students can use is the so-called special admission system, which targets people who have completed two or more years of secondary education abroad and who differ at each university.
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/board.jpeg"><img class="img2" src="assets/chile.jpeg"><img class="img3" src="assets/students.jpeg"><img class="img4" src="assets/girl.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Chile University</h1>
+
+<p>
+-College of Forestry Sciences.</br>
+-College of Physical and Mathematical Sciences.</br>
+-College of Agricultural Sciences.</br>
+-Collage of Arts.</br>
+-College of Architecture and Urbanism.</br>
+-Faculty of Economics and Business.</br>
+-law School.</br>
+-College of Veterinary and Animal Sciences.</br>
+-Faculty of Social Sciences.</br>
+-College of Chemical Sciences and Pharmacy.</br>
+-Faculty of Dentistry.</br>
+-Faculty of medicine.</br>
+-College of Philosophy and Humanities.</br></p>
+</div>
+<div class="boss"><center><img src="assets/chileee.jpg"><h3>Sebastián Piñera</h3><p>The President Of Chile University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/chilegps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/Uh9CxpV-_dk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.uchile.cl/english" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

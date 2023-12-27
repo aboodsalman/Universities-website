@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cape Town</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">CAPE TOWN</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/cape2.jpg"></div>
+<div class="wallpaper2"><img src="assets/cape2.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Cape Town University</h1>
+  
+  <p>The University of Cape Town (UCT) is a public research university located in Cape Town in the Western Cape province of South Africa. UCT was founded in 1829 as the South African College making it the oldest higher education institute in South Africa. In terms of full university status, it is jointly the oldest university in South Africa and the oldest extant university in Sub-Saharan Africa alongside Stellenbosch University which received full university status on the same day in 1918.</p>
+
+<p>UCT is the highest-ranked African university in the QS World University Rankings, the Times Higher Education World University Rankings, and the Academic Ranking of World Universities, and its Commerce, Law, and Medicine Faculties are consistently placed among the hundred best internationally. It is the only African member of the Global University Leaders Forum (GULF), within the World Economic Forum, which is made up of 26 of the world's top universities. The language of instruction is English.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Cape Town admission requirements</h1>
+
+  <h2>Minimum language proficiency</h2>
+<p>All applicants must have attained a certain level of proficiency in English and are required to submit evidence of this, as outlined below, as part of their application to study.</p>
+
+<h2>South African Senior Certificate undergraduate applicants</h2>
+
+<p>-South African Senior Certificate undergraduate applicants to UCT must have achieved a pass of 40% or more on the Higher Grade in English (First or Second Language) at Senior Certificate level.</p>
+
+<h2>South African NSC undergraduate applicants</h2>
+
+<p>-South African NSC undergraduate applicants to UCT, must have achieved a rating of 2 (Elementary Achievement, 30-40%) or better at Home Language or First Additional Language level.</p>
+
+<h2>Applicants holding non-South African school-leaving certificates</h2>
+
+<p>    -Please see UCT's language requirements.</p>
+<p>For further information on the IELTS and TOEFL exams, please contact the UCT English Language Centre.</p>
+
+<h2>Calculating Admissions Points Score (APS)</h2>
+<p>The percentages achieved in National Senior Certificate examinations (preliminary and final examinations) will be allocated an admission score equal to that percentage.</p>
+
+<p>The sum of 6 subjects, excluding Life Orientation, but including English and any required subject(s) for the relevant programme, is considered when deciding on admission. For example, for a given programme where Maths and Physical Sciences are required, we will take scores for English, Maths, Physical Sciences and the next best 3 subjects other than Life Orientation to compute the NSC score towards the APS.</p>
+
+<h2>Results below 40% for any subject do not attract a score.</h2>
+</div>
+<div class="images"><img class="img1" src="assets/students.jpeg"><img class="img2" src="assets/class.jpeg"><img class="img3" src="assets/cape.jpeg"><img class="img4" src="assets/girl2.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Cape Town University majors</h1>
+
+<p>
+-Accounting</br>
+-Agricultural Sciences</br>
+-Business Studies</br>
+-Dramatic Arts</br>
+-Economics</br>
+-Engineering Graphics and Design</br>
+-Geography</br>
+-History</br>
+-Consumer Studies</br>
+-Information Technology</br>
+-Languages (one language of learning and teaching at a higher education institution and 2 other recognised language subjects)</br>
+-Life Sciences</br>
+-Mathematics</br>
+-Mathematical Literacy</br>
+-Music</br>
+-Physical Sciences</br>
+-Religious Studies</br>
+-Visual Arts</br>
+</p>
+</div>
+<div class="boss"><center><img src="assets/precious.jpg"><h3>Precious Moloi-Motsepe</h3><p>The President Of Cape Town University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/capegps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/VhPGmxqHtyw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.uct.ac.za/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

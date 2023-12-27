@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unicamp</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">UNICAMP</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/unicamp2.jpg"></div>
+<div class="wallpaper2"><img src="assets/unicamp.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Unicamp University</h1>
+<p>The University of Campinas, commonly called Unicamp, is a public research university in the state of São Paulo, Brazil. Unicamp is consistently ranked among the top universities in Brazil and Latin America.</p>
+
+<p>Established in 1962, Unicamp was designed from scratch as an integrated research center unlike other top Brazilian universities, usually created by the consolidation of previously existing schools and institutes. Its research focus reflects on almost half of its students being graduate students, the largest proportion across all large universities in Brazil, and also in the large number of graduate programs it offers: 153 compared to 70 undergraduate programs. It also offers several non-degree granting open-enrollment courses to around 8,000 students through its extension school.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Unicamp admission requirements</h1>
+<p>To enroll as a regular student in one of UNICAMP’s 65 undergraduate courses, foreign students usually have to pass the Vestibular entrance examination, required for Brazilian students as well. However, other alternatives are also available for special cases, such as transfer students, students on the Exchange Program for Undergraduate Students (PEC-G), refugee or asylum students and courtesy vacancies. Eligibility and procedures to each of these cases are described below.</p>
+
+<h2>The Vestibular entrance examination:</h2>
+
+<p>Unicamp’s Vestibular is a highly competitive examination. Only well-prepared candidates will be able to pass the exam, and the preparation includes being familiar with subjects such as Brazilian history, geography, politics and national events. Specific aptitude tests are also required for candidates wishing to enroll in some courses, such as Dance, Music and Architecture.</p>
+
+<p>Registration for the Vestibular begins usually in August. The first of two tests happen in November or in the beginning of December. Students approved in the first test take a second one at the beginning of January. The academic year at UNICAMP begins in February, with classes generally starting the first week in March.</p>
+</div>
+<div class="images"><img class="img1" src="assets/girl.jpeg"><img class="img2" src="assets/hongkong.jpeg"><img class="img3" src="assets/class.jpeg"><img class="img4" src="assets/sao.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Majors of the Unicamp University</h1>
+<p>
+-Dentistry</br>
+-Medicine</br>
+-Nursing</br>
+-Nutrition</br>
+-Pharmacy</br>
+-Speech-Language Pathology and Audiology</br>
+-Physical Education</br>
+-Communication</br>
+-Sports Sciences</br>
+-Teaching Degree in Biological Sciences</br>
+-Biological Sciences</br>
+-Applied and Computational Mathematics</br>
+-Architecture and Town Planning</br>
+-Civil Engineering</br>
+-Chemistry</br>
+-Computer Science</br>
+-Statistics</br>
+-Physics and Mathematics</br>
+-Mathematics</br>
+-Physics</br>
+-Geology</br>
+-Geography</br>
+-Performing Arts</br>
+-Visual Arts</br>
+-Music</br>
+-Dance</br>
+-Media Studies</br>
+-System Analysis and Development</br>
+-Environmental Sanitation</br>
+-Civil Construction</br>
+-Telecommunications</br>
+-Chemical Engineering</br>
+-Mechanical Engineering</br>
+-Production Engineering</br>
+-Manufacturing Engineering</br>
+-Agricultural Engineering</br>
+-Electrical Engineering</br>
+-Computer Engineering</br>
+-Automation and Control Engineering</br>
+-Food Engineering</br>
+-Agribusiness</br>
+-Teaching in Physics and Chemistry</br>
+-Teaching in Languages</br>
+-Social Sciences</br>
+-Economic Sciences</br>
+-History</br>
+-Languages</br>
+-Linguistics</br>
+-Literary Studies</br>
+-International Trade</br>
+-Pedagogy</br>
+-Philosophy</br>
+-Policy Management</br>
+-Business
+</p>
+</div>
+<div class="boss"><center><img src="assets/ricardo.jpg"><h3>Ricardo de Oliveira Anido</h3><p>The President Of Unicamp University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/unicampgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/ZwWIJO4Dik4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.unicamp.br/unicamp/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

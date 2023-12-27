@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pretoria</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">PRETORIA</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/pretoria3.jpg"></div>
+<div class="wallpaper2"><img src="assets/pretoria2.jpg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Pretoria University</h1>
+  
+  <p>The University of Pretoria is a multi-campus public research university in Pretoria, the administrative and de facto capital of South Africa. The university was established in 1908 as the Pretoria campus of the Johannesburg-based Transvaal University College and is the fourth South African institution in continuous operation to be awarded university status. The university has grown from the original 32 students in a single late Victorian house to approximately 49,000 in 2015. The University was built on 7 suburban campuses on 1,120 hectares (2,800 acres).</br></br>
+
+  The University is organised into nine faculties and a business school. Established in 1920, the University of Pretoria Faculty of Veterinary Science is the second oldest veterinary school in Africa and the only veterinary school in South Africa. In 1949, the university launched the first MBA programme outside North America and the university's Gordon Institute of Business Science (GIBS) has consistently been ranked the top business school in Africa for executive education, as well as being placed in the top 50 in the world. In 2012, the Financial Times ranked the GIBS Executive MBA 1st in Africa and 60th in the world.</br></br>
+Since 1997, the university has produced more research outputs every year than any other institution of higher learning in South Africa, as measured by the Department of Education's accreditation benchmark. In 2008, the university awarded 15.8% of all masters and doctorate degrees in South Africa, the highest percentage in the country.</br>
+
+The university is commonly referred to as UP, Tuks, or Tukkies and in post-nominals the university is typically abbreviated as Pret or UP, although Pretoria is also used in official publications.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Pretoria admission requirements</h1>
+  <p>Minimum admission requirements:</br>
+1-National Senior Certificate (NSC)</br>
+2-Mathematics: 5 (C Symbol: 60%-69%) (Note that Mathematical Literacy will not be accepted).</br>
+3-Physical Science: 5 (C Symbol: 60%-69%).</br>
+4-English or Afrikaans: 4 (D Symbol: 50%-59%).</br>
+5-Life Orientation: 4 (D Symbol: 50%-59%) (Excluded when calculating the APS).</br>
+6-Two other subjects: 4 (D Symbol: 50%-59%).</br>
+7-An Admission Points Score (APS) of 32.</br>
+8-Admission test.
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/black.jpeg"><img class="img2" src="assets/pretoria4.jpg"><img class="img3" src="assets/cape2.jpeg"><img class="img4" src="assets/books.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Pretoria University majors</h1>
+
+<p>
+-Economic and Management Sciences.</br>
+-Mechanical & Aerospace Engineering</br>
+-Engineering, Built Environment and Information Technology</br>
+-Chemical Engineering</br>
+-Humanities.</br>
+-Medicine & Dentistry</br>
+-Natural and Agricultural Sciences.</br>
+-Sport Science</br>
+-Agriculture & Forestry</br>
+-Biological Sciences</br>
+-Mathematics & Statistics</br>
+-Chemistry</br>
+-Health Sciences.</br>
+-Education.</br>
+-Business & Management</br>
+-Economics & Econometrics</br>
+-Law</br>
+-Politics & International Studies (incl Development Studies)</br>
+-Law</br>
+-Sociology</br>
+-Theology.</br>
+</p>
+</div>
+<div class="boss"><center><img src="assets/david.jpeg"><h3>David Kabwa</h3><p>The President Of Pretoria University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/pretoriagps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/J9ZftL6jr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.up.ac.za/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

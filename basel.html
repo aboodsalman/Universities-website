@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basel</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">BASEL</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/basel2.jpg"></div>
+<div class="wallpaper2"><img src="assets/basel.jpg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Basel University</h1>
+<p>It is one of the oldest universities in Switzerland and is located in the city of Basel, where it was inaugurated on April 4, 1460, and has witnessed many developments since its establishment, and during the first year after its establishment, the university registry record enrolled 226 students, and today the university contains seven colleges It includes about 13,000 students and more than 350 professors.
+</p>
+</div>
+<div id="admission">
+  </br>
+  <h1>Basel admission requirements</h1>
+  <p>The application process for university enrollment is made for all three levels of bachelors, masters, and doctoral degrees. It is done online, and there are separate procedures for enrollment in both the Faculty of Medicine and Dentistry. In the case of seeking admission to postgraduate studies in the field of dentistry, a request for a joint master’s program must be submitted In computational biology and bioinformatics, the deadline for application is April 30 in the first semester, and for the second semester on October 15, students can apply for several courses.
+</p>
+<p>Kingdom students can apply to join the undergraduate programs at the deadline of April 30 in the first semester, and for the second semester on October 15, complete the application form and attach some documents for the student, namely:</p>
+<p>- A high school diploma translated and accredited.</br>
+- recommendation Letter .</br>
+-Certificate of English language proficiency.</br>
+- passport copy.</p>
+
+</div>
+<div class="images"><img class="img1" src="assets/students.jpeg"><img class="img2" src="assets/basel.jpeg"><img class="img3" src="assets/class.jpeg"><img class="img4" src="assets/girl.jpeg"></div>
+<div id="colleges">
+</br>
+<h1>Colleges of the Basel University</h1>
+<p>-Theology College.</br>
+- School of Law.</br>
+- Faculty of medicine .</br>
+- Faculty of Dentistry.</br>
+- Faculty of Economics.</br>
+-College of Psychology.</br>
+- College of Science.</br>
+- College of Engineering.</br>
+College of Computer Science.</p>
+</div>
+<div class="boss"><center><img src="assets/andrea.jpg"><h3>Andrea Schenker-Wicki</h3><p>The President Of Basel University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/baselgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/mDU95v8atuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.unibas.ch/en.html" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

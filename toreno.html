@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toreno</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">TORINO</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/torino.png"></div>
+<div class="wallpaper2"><img src="assets/toreno.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Toreno University</h1>
+<p>It is an Italian university based in Turin. It is one of the oldest universities in Europe that still performs its research and educational role.</p>
+
+<p>The University of Turin is a reputable educational center in the region of Piedmont and one of Italy's oldest universities, and the university has produced a momentum of eminent personalities, among them a number of prime ministers of Italy, three Nobel Prize winners, lawyers, philosophers and writers</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Toreno admission requirements</h1>
+<p>-The scholarship is available to all students of different nationalities of the world except Italian citizens.</br></br>
+
+-The applicant must not be a holder of or reside in Italian citizenship.</br></br>
+
+-It is available to international students with university degrees from any country in the world and Italian university degrees are not accepted.</br></br>
+
+-The student admitted to the scholarship needs the Italian language in his academic and social life during the period of study at the university, so the scholarship program at the University of Turin provides a preparatory course for the Italian language for all students admitted who do not master the Italian language before the start of the scholarship program.</br></br>
+
+-The best applications are submitted based on the preference of GRE certificates. Applications that do not contain this certificate are not accepted and must be obtained no later than 5 years before the deadline for the grant.</br></br>
+
+-This exam must be successfully passed in the three departments with the following minimum scores:</br>
+*Verbal reasoning: 140/170</br>
+*Quantitative thinking: 140/170</br>
+*Analytical Writing: 3.5 / 6.</p>
+</div>
+<div class="images"><img class="img1" src="assets/girl.jpeg"><img class="img2" src="assets/read.jpeg"><img class="img3" src="assets/rock.jpeg"><img class="img4" src="assets/uni.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Toreno University</h1>
+<p>
+-Faculty of Agriculture</br>
+-Faculty of Economics</br>
+-Faculty of Education</br>
+-College of Foreign Languages ​​and Literature</br>
+-School of Law</br>
+-College of Arts and Philosophy</br>
+-College of Mathematical Sciences, Physics and Natural Sciences</br>
+-College of Medicine and Surgery</br>
+-Second College of Medicine and Surgery (St. Luigi Gonzaga College)</br>
+-faculty of Pharmacy</br>
+-Faculty of Political Science</br>
+-College of Psychology</br>
+-College of Veterinary Medicine
+</p>
+</div>
+<div class="boss"><center><img src="assets/stefano.jpeg"><h3>Stefano Geuna</h3><p>The President Of Toreno University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/torenogps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/dhpABAUq8ak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://en.unito.it/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

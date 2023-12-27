@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leiden</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">LEIDEN</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/leiden.jpg"></div>
+<div class="wallpaper2"><img src="assets/leiden.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Leiden University</h1>
+<p>It is the oldest university in the Netherlands. It was established in Leiden by order of William Prince of Orange, leader of the Dutch Revolution during the Eighteen Years' War. The Dutch-Orange-Nassau family still maintains ties with the University of Leiden. Queen Juliana (1909-2004), Queen Beatrix and Crown Prince Willem Alexander, have taught at the university, and the University awarded Queen Beatrix an honorary degree in 2005.</p>
+
+<p>The University of Leiden consists of six university colleges and more than 50 departments, and it teaches more than 150 programs of study in the first university stage alone, and the university has a good international reputation. The University of Leiden ranked 70th among the best universities in the world in the academic classification of world universities issued by Shanghai Jiao Tong University in 2010, and ranked 60th globally in the world universities ranking issued by the Higher Education Supplement of The Times in 2009, and the University of Leiden came in the same rank In 29th place among the best universities in the world in the field of arts and humanities. In 2010, the University of Leiden topped the universities of Europe in the classification of the Higher Education Supplement of the Times newspaper in the field of arts and humanities.
+</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Leiden admission requirements</h1>
+<p>-Not have a passport from the European Union / European Economic Area, Switzerland or Suriname.</br>
+-Not eligible for support from the Dutch Study Funding System.</br>
+-You have not studied at any Dutch university or any Dutch university of applied sciences.</br>
+-You have completed pre-university education outside the Netherlands.</br>
+-You must agree to the terms and conditions of the Holland Scholarship</p>
+
+<h2>Additional note for British passport holders:</h2>
+
+<p>You are not eligible for the Holland Scholarship for new students on this application round (for undergraduate programs beginning in September 2020).
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/students.jpeg"><img class="img2" src="assets/harvard.jpg"><img class="img3" src="assets/class.jpeg"><img class="img4" src="assets/girl.jpeg"></div>
+
+<div id="majors" class="par">
+</br>
+<h1>Leiden University majors</h1>
+<p>
+-Archaeology</br>
+-Arts, Media and Society</br>
+-Cultural Anthropology and Development Sociology</br>
+-Dutch Studies</br>
+-English Language and Culture</br>
+-International Relations and Organisations</br>
+-International Studies</br>
+-Liberal Arts and Sciences: Global Challenges</br>
+-Linguistics</br>
+-Philosophy: Global and Comparative Perspectives</br>
+-Psychology</br>
+-Security Studies</br>
+-South and Southeast Asian Studies</br>
+-Urban Studies</br>
+</p>
+</div>
+<div class="boss"><center><img src="assets/carel.jpg"><h3>Carel Stolker</h3><p>The President Of Leiden University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/leidengps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/2PUiDLlpilI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.universiteitleiden.nl/en" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

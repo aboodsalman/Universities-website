@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cambridge</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">CAMBRIDGE</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/cambridge2.jpg"></div>
+<div class="wallpaper2"><img src="assets/uk.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Cambridge University</h1>
+  
+  <p>The University of Cambridge is a public research university in Cambridge, UK. The University of Cambridge was founded in 1209 and King Henry III </br>granted the Royal Charter in 1231, and is the second oldest English-speaking university and the second largest university in the world still alive</p>
+
+  <p>The University has taught many prominent graduates including prominent mathematicians, scholars, politicians, lawyers, philosophers, writers, actors and </br>heads of foreign countries, and as of October 2018 there were 118 Nobel Prize winners, 11 medals, 6 Turing Award winners and 15 prime ministers</br> The British are affiliated with Cambridge as students, alumni, faculty or research teams.</p>
+  </div>
+  <div class="par">
+  </br>
+  <h1>Apply at Cambridge University</h1>
+
+  <p>Before applying you need to verify that you have or are likely to achieve the correct grades at the right level and in the appropriate materials for </br>your chosen specialty, and whatever system you are learning they need to obtain the highest scores in the higher level qualifications available </br>to school / university students - most applicants Successful people eventually override the terms of their bid, and offers are usually made upon </br>collection of qualifications obtained in Year 13 (or equivalent), and if appropriate, frequently asked questions about qualifications taken early.</p>
+</div>
+<div class="images"><img class="img1" src="assets/read.jpeg"><img class="img2" src="assets/uni.jpeg"><img class="img3" src="assets/study.jpg"><img class="img4" src="assets/girl.jpeg"></div>
+<div id="admission" class="par">
+  </br>
+  <h1>Cambridge admission requirements</h1>
+
+  <p>Although they must speak primarily in terms of A Levels and the International Baccalaureate Diploma (IB) program, many other school and national exams </br>at an equivalent level are equally acceptable, and they consider applicants who take a set of qualifications from different screening systems</br> That provide acceptable individual qualifications, and any requirements are met, and if the qualification you obtained prior to application</br> is not listed you must see European Union qualifications and international qualifications.
+</br>
+</br>
+One of the strengths of the Cambridge admission system is the ability of a student or applicant to evaluate all applicants individually, and all colleges can</br> modify offers to take account of individual circumstances.</p>
+</div>
+<div id="majors" class="par">
+  </br>
+<h1>Cambridge University majors</h1>
+
+<p>1- Archeology.</br>
+2- Architecture.</br>
+3- Asian Studies.</br>
+4- Chemical engineering.</br>
+5- Computer Science.</br>
+6- Economy.</br>
+7- English.</br>
+8- Geography.</br>
+9- History.</br>
+10- History and Modern Languages.</br>
+11- History and politics.</br>
+12- History of Art.</br>
+13- Humanities, social and political sciences.</br>
+14- Law.</br>
+15- Linguistics.</br>
+16- Administrative Studies.</br>
+17- Mathematics.</br>
+18- Medicine.</br>
+19- Veterinary medicine.</p>
+</div>
+<div class="boss"><center><img src="assets/stephen.jpg"><h3>  Stephen Toope</h3><p>The President Of Cambridge University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/cambridgegps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/TrU1-rR7vTI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.cam.ac.uk/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

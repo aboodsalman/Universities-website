@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Harvard</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">HARVARD</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/harvard2.jpg"></div>
+<div class="wallpaper2"><img src="assets/america.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Harvard University</h1>
+  
+  <p>A private university, the university is one of the oldest universities in America, the university has huge potential, making it one of the largest and most important universities in the United States. It is located in Cambridge, close to Boston, Massachusetts. The university opened in the year 1636 at the hands of the Reverend John Harvard. Harvard University is the first place on the list of the best universities in America, and it is the first world in the world.</p>
+
+<p>One of the largest universities in the world in terms of area and equipment.</p>
+
+<p>It has colleges of medicine, engineering, education, design, arts, government administration, business, law, public health and theology.</p>
+
+<p>It ranks fifth globally in terms of the difficulty of admission, as it has difficult conditions and tests for admission to study.</p>
+</p>
+</br>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Harvard admission requirements</h1>
+
+  <p>1- It is required to study at Harvard University to obtain a cumulative average (GPA) with high degrees, which will increase your chance of admission to the university, and in order to take you into consideration, try to place your (GPA) within (10-15%) in your class Academic, and in the event that the CGPA is less than that, you will have to make sure that the other things that you mentioned in your application are very interesting, and it can compensate you for other differences, such as your previous academic studies, and the most prominent activities in your specialty or the reasons for choosing this specialization.</p>
+
+<p>2- You will have to pass the Scholastic assessment. Test as the university takes this test to find out the extent of the capabilities of students applying to study with it, and it contains a set of language tests in addition to tests in both general information and science usually, and for that It is preferred for you to take these tests before applying to the university in order to know your personal level.</p>
+
+<p>3- It is preferable to submit a CV with your curriculum, and it is preferred that it be signed by your former teachers.</p>
+
+<p>4- Make sure that your educational certificates are translated and certified by the Ministry of Foreign Affairs or from long-established academic institutions.</p>
+
+<p>5- I prepare well for the interview.It's obligatory at Harvard University to come to the interview, personally.</p>
+
+<p>6- You will have to pay the tuition fees for the application first.</p>
+
+<h2>The most important questions that Harvard will ask when dealing with applicants for study are: -</h2>
+<p>1- Have you reached your personal or great academic strength? .</br>
+2- What is your personality type at that moment, and what kind of character do you want to be after (10) years from now? .</br>
+3- What is your personal ability to accept new ideas or people.</br>
+4- What are the choices you made for yourself, and why?</br></p>
+</div>
+<div class="images"><img class="img1" src="assets/students.jpeg"><img class="img2" src="assets/harvard.jpg"><img class="img3" src="assets/class.jpeg"><img class="img4" src="assets/girl.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Harvard University</h1>
+
+<p>
+-Medicine.</br>
+-Engineering.</br>
+-Education.</br>
+-the design.</br>
+-Sciences and Arts.</br>
+-Theology.</br>
+-Continuous breeding.</br>
+-Business.</br>
+-Governmental Administration.</br>
+-Law.</br>
+-Public Health.</br>
+-Radcliffe Institute.</br>
+-Faculty of Philosophy.</br>
+-the pharmacy.</br></p>
+</div>
+<div class="boss"><center><img src="assets/lawrence.jpg"><h3>Lawrence Bacow</h3><p>The President Of Harvard University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/harvardgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/E4ix760KzGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.harvard.edu/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

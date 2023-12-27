@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Johannesberg</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">JOHANNESBERG</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/joh2.png"></div>
+<div class="wallpaper2"><img src="assets/south.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Johannesburg University</h1>
+  
+  <p>The University of Johannesburg (UJ) is a public university located in Johannesburg, South Africa. The University of Johannesburg came into existence on 1 January 2005 as the result of a merger between the Rand Afrikaans University (RAU), the Technikon Witwatersrand (TWR) and the Soweto and East Rand campuses of Vista University. Prior to the merger, the Daveyton and Soweto campuses of the former Vista University had been incorporated into RAU. As a result of the merger of Rand Afrikaans University (RAU), it is common for alumni to refer to the university as RAU. The Vice-Chancellor and Principal of UJ is Professor Tshilidzi Marwala. Between 2005 and 2017, UJ's Vice-Chancellor and Principal was Prof Ihron Lester Rensburg.</p>
+
+<p>The newly emerged institution is one of the largest comprehensive contact universities in South Africa from the 26 public universities that make up the higher education system. UJ has transformed into a diverse, inclusive, transformational and collegial institution, with a student population of over 50 000, of which more than 3000 are international students from 80 countries.</p>
+</div>
+<div id="admission" class="par">
+</br>
+  <h1>Johannesburg admission requirements</h1>
+
+  <p>As it is a common practice with all South African universities, South African applicants to the University of Johannesburg are required to apply in advance for admission into their preferred course by no later than the end of September. Therefore, prospective South African matriculants must apply for their preferred course of study before the completion of their matric year. As of 2013, the University of Johannesburg has adopted a "no walk-in" policy and therefore, prospective and current students are required to apply for admission and complete their registration online.</p>
+
+<p>International students have to comply with a specialised admission process and must apply for admission into their preferred course by no later than the end of September.</p>
+
+<p>Registration for undergraduates and postgraduates takes place before the commencement of the academic year. New registrations for qualifying matriculants takes place in January shortly after the matric results are released.</p>
+</div>
+<div class="images"><img class="img1" src="assets/students.jpeg"><img class="img2" src="assets/johan.jpeg"><img class="img3" src="assets/class.jpeg"><img class="img4" src="assets/african.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Johannesburg University</h1>
+
+<p>
+College of Business and Economics (including the Johannesburg Business School)</br>
+Faculty of Art, Design and Architecture</br>
+Faculty of Education</br>
+Faculty of Engineering and the Built Environment
+Faculty of Health Sciences</br>
+Faculty of Humanities</br>
+Faculty of Law</br>
+Faculty of Science</br></p>
+</div>
+<div class="boss"><center><img src="assets/ramphosa.jpg"><h3>Mr Ramaphosa</h3><p>The President Of Johannesburg University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/johgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/jenzycl70XM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.uj.ac.za/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

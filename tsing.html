@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tsinghua</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">TSINGHUA</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/tsing2.jpg"></div>
+<div class="wallpaper2"><img src="assets/china2.jpg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Tsinghua University</h1>
+  
+  <p>Tsinghua University is a major research university in Beijing, and a member of the C9 League of Chinese universities. Since its establishment in 1911, it has graduated Chinese leaders in science, engineering, politics, business, academia, and culture.</br></br>
+
+Reflecting its motto of Self-Discipline and Social Commitment, Tsinghua is dedicated to academic excellence, advancing the well-being of the Chinese society, and global development.Tsinghua is perennially ranked as one of the top academic institutions in China, Asia, and worldwide, and was recognized as the 16th best university in the 2020 QS World University Rankings. Since 2015, Tsinghua has been ranked as one of the best engineering and computer science schools in the world based on factors including total research output and performance. Tsinghua is a Class A institution in the Double First Class University Plan.</br></br>
+
+Tsinghua University engages in extensive research and offers 51 bachelor's degree programs, 139 master's degree programs, and 107 doctoral programs through 20 colleges and 57 departments covering a broad range of subjects, including science, engineering, arts and literature, social sciences, law, medicine. Along with its membership in the C9 League, Tsinghua University affiliations include the Association of Pacific Rim Universities, a group of 50 leading Asian and American universities, Washington University in St. Louis's McDonnell International Scholars Academy, a group of 35 premier global universities, and the Association of East Asian Research Universities, a 17-member research collaboration network of top regional institutions. Tsinghua is an associate member of the Consortium Linking Universities of Science and Technology for Education and Research (CLUSTER). 
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Tsinghua admission requirements</h1>
+  <p>Admission to Tsinghua for both undergraduate and graduate schools is extremely competitive. Undergraduate admissions for domestic students is decided through the gaokao, the Chinese national college entrance exam, which allows students to list Tsinghua University among their preferred college choices. While selectivity varies by province, the sheer number of high school students applying for college each year has resulted in overall acceptance rates far lower than 0.1% of all test takers.</br></br>
+
+
+Tsinghua University commands a very high rate of matriculation for accepted undergraduates. According to a report in 2008, 215 out of 300 students who placed within the top 10 in the 30 tested provinces and regions chose Tsinghua as their first choice school, and 21 out of the 30 top scorers in each province and region chose the university.</br></br>
+
+
+Admission to Tsinghua's graduate schools is also very competitive. Only about 16% of MBA applicants are admitted each year.</p>
+
+</div>
+<div class="images"><img class="img1" src="assets/african.jpeg"><img class="img2" src="assets/tsing.jpeg"><img class="img3" src="assets/books.jpeg"><img class="img4" src="assets/tsinlibrary.jpg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Tsinghua University majors</h1>
+
+<p>
+1-Architecture.</br>
+2-Urban Planning.</br>
+3-Landscape Architecture.</br>
+4-Building Environment and Energy Engineering.</br>
+5-Civil Engineering.</br>
+6-Construction Management.</br>
+7-Traffic Engineering.</br>
+8-Hydraulic and Hydropower Engineering.</br>
+9-Hydroscience and Engineering.</br>
+10-Environmental Engineering.</br>
+11-Water Supply and Wastewater Engineering.</br>
+12-Mechanical Engineering.</br>
+13-Measurement, Control Technology and Instruments.</br>
+14-Micro-electro-mechanical Systems Engineering.</br>
+15-Vehicle Engineering.</br>
+16-Industrial Engineering.</br>
+17-Energy and Power Engineering.</br>
+18-Engineering Mechanics.</br>
+19-Aeronautical and Astronautical Engineering.</br>
+20-Electrical Engineering and Automation Department of Electrical Engineering.
+</p>
+</div>
+<div class="boss"><center><img src="assets/qiu.png"><h3>Qiu Yong</h3><p>The President Of Tsinghua University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/tsinggps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/7ZJqDAmVzDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.tsinghua.edu.cn/en/index.htm" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

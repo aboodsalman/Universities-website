@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Princeton</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">PRINCETON</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/princeton2.jpg"></div>
+<div class="wallpaper2"><img src="assets/princeton3.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Princeton University</h1>
+<p>Princeton University is a private Ivy League research university in Princeton, New Jersey. Founded in 1746 in Elizabeth as the College of New Jersey, Princeton is the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. The institution moved to Newark in 1747, then to the current site nine years later, and renamed itself Princeton University in 1896.</p>
+
+<p>Princeton provides undergraduate and graduate instruction in the humanities, social sciences, natural sciences, and engineering. It offers professional degrees through the Woodrow Wilson School of Public and International Affairs, the School of Engineering and Applied Science, the School of Architecture and the Bendheim Center for Finance. The university has ties with the Institute for Advanced Study, Princeton Theological Seminary and the Westminster Choir College of Rider University. Princeton has the largest endowment per student in the United States. From 2001 to 2018, Princeton University was ranked either first or second among national universities by U.S. News & World Report, holding the top spot for 16 of those 18 years.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Princeton admission requirements</h1>
+<p>Princeton's undergraduate program is highly selective, admitting 6.4% of undergraduate applicants in the 2016–2017 admissions cycle (for the Class of 2021). The middle 50% range of SAT scores was 1430–1570 and the middle 50% range of the ACT composite score was 31–35.</p>
+
+<p>In September 2006, the university announced that all applicants for the Class of 2012 would be considered in a single pool, effectively ending the school's early decision program. In February 2011, following decisions by the University of Virginia and Harvard University to reinstate their early admissions programs, Princeton announced it would institute an early action program, starting with applicants for the Class of 2016. In 2011, The Business Journal rated Princeton as the most selective college in the Eastern United States.</p>
+
+<p>In 2001, expanding on earlier reforms, Princeton became the first university to eliminate loans for all students who qualify for financial aid. All demonstrated need is met with combinations of grants and campus jobs. In addition, all admissions are need-blind. Kiplinger magazine in 2016 ranked Princeton as the best value among private universities, noting that the average graduating debt is $8,557.</p>
+
+</div>
+<div class="images"><img class="img1" src="assets/cape.jpeg"><img class="img2" src="assets/girl2.jpeg"><img class="img3" src="assets/rock.jpeg"><img class="img4" src="assets/princeton.jpg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Majors of the Princeton University</h1>
+<p>
+-African American Studies.</br>
+-Anthropology.</br>
+-Architecture.</br>
+-Art and Archaeology.</br>
+-Astrophysical Sciences.</br>
+-Chemistry.</br>
+-Classics .</br>
+-Comparative Literature.</br>
+-Computer Science.</br>
+-East Asian Studies.</br>
+-Ecology and Evolutionary Biology.</br>
+-Economics.</br>
+-English.</br>
+-French and Italian.</br>
+-Geosciences.</br>
+-German.</br>
+-History.</br>
+-Mathematics.</br>
+-Molecular Biology.</br>
+-Music.</br>
+-Near Eastern Studies.</br>
+-Neuroscience.</br>
+-Philosophy.</br>
+-Physics.</br>
+-Politics.</br>
+-Psychology.</br>
+-Religion.</br>
+-Slavic Languages and Literatures.</br>
+-Sociology.</br>
+-Spanish and Portuguese.</br>
+-Chemical and Biological Engineering.</br>
+-Civil and Environmental Engineering.</br>
+-Computer Science.</br>
+-Electrical Engineering.</br>
+-Mechanical and Aerospace Engineering.</br>
+-Operations Research and Financial Engineering.
+</p>
+</div>
+<div class="boss"><center><img src="assets/cristopher.jpg"><h3>Christopher L. Eisgruber</h3><p>The President Of Princeton University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/princetongps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/ccRnkLnwUZg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.princeton.edu/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nanyang</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">NANYANG</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/nan4.jpeg"></div>
+<div class="wallpaper2"><img src="assets/nan1.jpg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Nanyang University</h1>
+  
+  <p>The Nanyang Technological University, Singapore (NTU) is the second oldest public autonomous research university in Singapore.</br></br>
+
+With a population of 33,500 students and 10,000 faculty and staff, NTU is the second largest university in Singapore. The University is organised into eight colleges and schools, including the College of Engineering, College of Science, Nanyang Business School, Lee Kong Chian School of Medicine, and College of Humanities, Arts and Social Sciences. NTU is also home to several autonomous institutions such as Singapore's National Institute of Education, S. Rajaratnam School of International Studies, Earth Observatory of Singapore, Singapore Centre on Environmental Life Sciences Engineering, Institute on Asian Consumer Insight, and the recently launched NTU Institute of Science and Technology for Humanity. NTU's main campus covers 200 hectares (490 acres) of land, making it the largest university campus in Singapore. The primary campus grounds are located in the western part of Singapore, along 50 Nanyang Avenue. It also has two other campuses in Singapore's healthcare and start-up districts, Novena and one-north respectively.</br></br>
+In 1955, prior to Singapore's independence from the British, Nanyang University was established south of the current Nanyang Technological University campus, with the centre of the present Yunnan Garden as its heart. Its administration building currently houses the Chinese Heritage Centre, a national monument.
+
+</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Nanyang admission requirements</h1>
+  <p>Hanyang University usualy holds the Admission Requirements Briefing Session at Paiknam Music Hall, Seongdong-gu, Seoul on Saturday, April 21st. The briefing session usualy is held three times, and about 2,000 examinees and their parents usualy attende the sessions. Individual admission consultations are usualy held after the briefing session.
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/african.jpeg"><img class="img2" src="assets/singapore.jpeg"><img class="img3" src="assets/read.jpeg"><img class="img4" src="assets/nan3.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Nanyang University majors</h1>
+
+<p>
+
+-Mechanical & Aerospace Engineering</br>
+-Civil Engineering</br>
+-Chemical Engineering</br>
+-General Engineering</br>
+-Medicine & Dentistry</br>
+-Sport Science</br>
+-Agriculture & Forestry</br>
+-Biological Sciences</br>
+-Mathematics & Statistics</br>
+-Chemistry</br>
+-Accounting & Finance</br>
+-Economics & Econometrics</br>
+-Law</br>
+-Communication & Media Studies</br>
+-Sociology</br>
+-Geography</br>
+-Architecture</br>
+-Art, Performing Arts & Design</br>
+
+</p>
+</div>
+<div class="boss"><center><img src="assets/kim.jpeg"><h3>Kim woo-seung Ph.D.</h3><p>The President Of Nanyang University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/nanyanggps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/sTlKo-tXZxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.ntu.edu.sg/Pages/home.aspx" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

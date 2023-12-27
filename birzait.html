@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bir Zeit</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">BIR ZEIT</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/birzeit1.jpg"></div>
+<div class="wallpaper2"><img src="assets/bethlahem.jpg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Bir Zeit University</h1>
+  
+  <p>Birzeit University , often abbreviated as BZU, is a private non-profit organization, registered by the Ministry of Social Affairs as charitable organization and accredited by the Ministry of Higher Education as a public university located in Birzeit, West Bank, near Ramallah. Established in 1924 as an Elementary School for girls, Birzeit became a University in 1975.</br></br>
+
+Birzeit University offers graduate and undergraduate programs in information technology, engineering, sciences, social policy, arts, law, nursing, pharmacy, health sciences, economics, and management. It has 9 faculties, including a graduate faculty. These offer 47 B.A. programs for undergraduate students and 26 M.A. programs for graduate students. As of 2018, around 14,000 students are enrolled in the university's bachelor's, master's and PhD programs.</br></br>
+
+Birzeit University is governed by an autonomous Board of Trustees composed of educators and professionals from the Palestinian community. The board appoints the president of the university. It also confirms the appointment of vice-presidents and deans upon the recommendation of the president. The board approves the budget and general development plans presented to it by the university council.
+</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Bir Zeit admission requirements</h1>
+
+  <p>
+ A-Holders of the Palestinian General School Certificate (Injaz):</br></br>
+  Admission for all students is determined in accordance with the minimum average of each specialization. Each applicant is required to submit the following documents:</br></br>
+
+1-A copy for the personal ID</br>
+2-A copy for the birth certificate</br>
+3-A certified copy for the Palestinian General School Certificate transcript</br></br>
+
+
+ B-Holders of International Certificates (SAT I & SAT II, GCE, GCSE, IGCSE, IB, ABITOUR):</br></br>
+Admission for all students is determined in accordance with the minimum average of each specialization. Each applicant is required to submit a the certificate after obtaining Injaz Equivalency.
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/african.jpeg"><img class="img2" src="assets/dome.jpg"><img class="img3" src="assets/read.jpeg"><img class="img4" src="assets/bet2.jpg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Bir Zeit University Colleges</h1>
+
+<p>
+
+-Design.</br>
+-Doctor of Pharmacy .</br>
+-Economics</br>
+-Medicine & Dentistry</br>
+-Biochemistry</br>
+-Biology</br>
+-Business Administration</br>
+-Architectural Engineering</br>
+-Chemistry</br>
+-Accounting & Finance</br>
+-Arabic Language and Literature</br>
+-Law</br>
+-Arab and Muslim History</br>
+-Sociology</br>
+-Geography</br>
+-Architecture</br>
+-Accounting.</br>
+
+</p>
+</div>
+<div class="boss"><center><img src="assets/bir1.jpg"><h3>Abdullatif Abuhijleh</h3><p>The President Of Bir Zeit University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/birgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/lDmbSNSunbg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.birzeit.edu/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

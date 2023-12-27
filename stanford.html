@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stanford</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">STANFORD</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/stanford4.jpeg"></div>
+<div class="wallpaper2"><img src="assets/stanford.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Stanford University</h1>
+  
+  <p>It is a American research university, The university was founded in 1885 by Leland Stanford, and opened on October 1, 1891, and the Silicon Valley started from it in the sixties of the last century. It is located in southeast San Francisco about 37 miles and northwest of San Jose, about 20 miles in California near Palo Alto.</p>
+
+<p>Stanford University is one of the universities whose graduates have worked to establish a number of major companies, including Google, Hewlett-Packard, Nike and it is ranked tenth as the strongest economy in the whole world.</p>
+</br>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Stanford admission requirements</h1>
+
+  <p>1-Applicants must have a Bachelor's degree from an American college or university accredited by a regional accreditation association.</br>
+    2-In the case of international students with a Bachelor's degree outside of the United States of America, they must have graduated from recognized universities with a good academic reputation.</br> 
+
+    3-The applicant must be a university graduate from outside the United States of America for various grants, and a degree of equivalent degree should be held for a bachelor’s degree granted to him in the United States. As for graduates of Middle East and African countries, they must obtain a university study leave of 4 years or more.</br>
+
+4-The applicant must master the English language, be aware of the requirements for the subjects he desires to apply to, and the students must have completed their undergraduate studies after 2014, and complete them before 2020.</br>
+
+5-The student must meet the requirements for admission to the academic program, at the university in addition to all the requirements that the program needs for admission, and applicants must study at the university and apply for this scholarship for 2019.</br>
+The applicants' academic records should contain detailed information on his level of performance in the academic years, the courses that have been studied each year, and clarify the student’s cumulative estimate and rank in each study year if possible.</br>
+The grades mentioned in the study records must be confirmed by official copies of the academic certificate for accredited and trusted students from the university.</br>
+The records must be authenticated and bear the official signature of the educational institution to which the student belongs.</p>
+</div>
+<div class="images"><img class="img1" src="assets/students.jpeg"><img class="img2" src="assets/black.jpeg"><img class="img3" src="assets/uni.jpeg"><img class="img4" src="assets/cape.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Stanford University majors</h1>
+
+<p>Air and space navigation, Anthropology, Applied physics, Art and art history, Biochemistry, Bioengineering, biology, Heart Surgery, Chemistry and its derivatives., Civil and Environmental Engineering, Telecommunications, Comparative literature, Comparative medicine, computer science, Dermatology, Developmental biology, Earth System Sciences, East Asian languages ​​and cultures, Economics, electrical engineering, Energy Resources Engineering, Languages, Geological sciences, German studies, Health research and policy, History, Iberian and Latin American cultures, Law School, linguistics, Administrative Sciences and Engineering, Science and Engineering Materials, Maths, Mechanical engineering, Microbiology and immunology, Molecular and cellular physiology, Music, Neurology, Neurological diseases and neurosciences, Neurosurgery, Obstetrics and Gynecology, ophthalmology, Orthopaedic Surgery, Otolaryngology (head and neck surgery), Particle Physics and Astrophysics (SLAC), Pathology, Pediatrics, Philosophy, Physics, Political Science, Psychiatry and behavioral sciences, psychology, Radiation oncology, radiology, Religious studies, Slavic languages ​​and literature, Sociology, statistics, Structural Biology, Surgery, Theater and performance studies, Urology</p>
+</div>
+<div class="boss"><center><img src="assets/marc.jpg"><h3>Marc Tessier-Lavigne</h3><p>The President Of Stanford University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/stanfordgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/emBoDloCze8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.stanford.edu/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

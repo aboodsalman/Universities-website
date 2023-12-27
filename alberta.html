@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alberta</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">ALBERTA</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/alberta2.jpg"></div>
+<div class="wallpaper2"><img src="assets/alberta2.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Alberta University</h1>
+<p>The University of Alberta is a public research university located in Edmonton, Alberta, Canada. It was founded in 1908 by Alexander Cameron Rutherford, the first premier of Alberta, and Henry Marshall Tory, its first president. Its enabling legislation is the Post-secondary Learning Act. The university is considered a “Comprehensive academic and research university” (CARU), which means that it offers a range of academic and professional programs, which generally lead to undergraduate and graduate level credentials, and have a strong research focus.</p>
+
+<p>The university comprises four campuses in Edmonton, the Augustana Campus in Camrose, and a staff centre in downtown Calgary. The original north campus consists of 150 buildings covering 50 city blocks on the south rim of the North Saskatchewan River valley, directly across from downtown Edmonton. 39,000 students from Canada and 150 other countries participate in 400 programs in 18 faculties.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Alberta admission requirements</h1>
+<p>The Faculty of Graduate Studies and Research (FGSR) sets a minimum academic standard for admission for both Canadian and international applicants. Please see below for our minimum academic requirements for both Master's and Doctoral student admissions.</p>
+
+<p>Please be advised that some departments may have additional or higher admission qualifications. Always visit the program or department website or contact the department directly for program specific admission requirements.</p>
+
+<h2>Master's Programs</h2>
+
+<p>Applicants are normally required to have completed a four-year baccalaureate degree, or its academic equivalent, from an academic institution recognized by the University of Alberta. 
+An admission grade point average of 3 on most 4-point grading systems or B on most letter grading systems, based on your most recent two years of full time study (or equivalent) is required.</p>
+
+<h2>Doctoral Programs</h2>
+
+<p>Applicants are normally required to have completed a master’s degree, or its academic equivalent, from an academic institution recognized by the University of Alberta.</p>
+
+<p>An admission grade point average of 3 on most 4-point grading systems or B on most letter grading systems, based on your most recent two years of full time study (or equivalent) is required.</p>
+
+<h2>Additional Requirements</h2>
+
+<p>Some departments have additional requirements, such as:</p>
+
+<p>-Statement of research interests.</br>
+-Previous work experience in the field.</br>
+-Educational tests such as the Graduate Record Examination (GRE), Graduate Management Admission Test (GMAT) or Miller Analogies Test.</br>
+-Contact the department directly to find out if there are any additional requirements.</p>
+
+<h2>Minimum Academic Requirements</h2>
+
+<p>Since degrees vary greatly from institution to institution and country to country, the University of Alberta will examine course content to establish equivalencies to a UAlberta baccalaureate degree. For a list of minimum academic requirements by country, please see here.</p>
+
+</div>
+<div class="images"><img class="img1" src="assets/black.jpeg"><img class="img2" src="assets/board.jpeg"><img class="img3" src="assets/alberta.jpeg"><img class="img4" src="assets/girl.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Alberta University</h1>
+<p>
+-Faculty of Agricultural, Life and Environmental Sciences.</br>
+-Alberta School of Business.</br>
+-Faculty of Arts.</br>
+-Augustana Campus.</br>
+-Campus Saint-Jean.</br>
+-Faculty of Engineering.</br>
+-Faculty of Extension.</br>
+-Faculty of Graduate Studies and Research.</br>
+-Faculty of Law.</br>
+-Faculty of Medicine & Dentistry.</br>
+-Faculty of Native Studies.</br>
+-Faculty of Nursing.</br>
+-Faculty of Pharmacy and Pharmaceutical Sciences.</br>
+-Faculty of Kinesiology, Sport, and Recreation.</br>
+-Faculty of Rehabilitation Medicine.</br>
+-School of Public Health.</br>
+-Faculty of Science.
+</p>
+</div>
+<div class="boss"><center><img src="assets/david.jpg"><h3>David H. Turpin</h3><p>The President Of Alberta University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/albertagps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/el7hxpsFaQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.ualberta.ca/index.html" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

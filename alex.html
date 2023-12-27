@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alexandria</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">ALEXANDRIA</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/alexandria.jpg"></div>
+<div class="wallpaper2"><img src="assets/alexcity.jpg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Alexandria University</h1>
+  
+  <p>Alexandria University is a public university in Alexandria, Egypt. It was established in 1938 as a satellite of Fouad University (the name of which was later changed to Cairo University), becoming an independent entity in 1942. It was known as Farouk University until the Egyptian Revolution of 1952 when its name was changed to the University of Alexandria. Taha Hussein was the founding rector of Alexandria University. It is now the second largest university in Egypt and has many affiliations to various universities for ongoing research.</br></br>
+
+Alexandria University is one of the largest universities in Egypt, and the third university established after Cairo University and the American University in Cairo. Alexandria University has 21 faculties and 3 institutes[1] that teach different types of social, medical, engineering, mathematics and other science.The university had other branches in Egypt outside Alexandria in Damanhour and Matrouh which later became two independent universities.Other branches have been set up outside Egypt in Juba, South Sudan, and in N'Djamena, the capital of the Republic of Chad.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Alexandria admission requirements</h1>
+  <p>Applicants must meet all of the following:</br></br>
+
+1-Completion of TOPS University Diploma, or its equivalent college readiness core curriculum at time of high school graduation AND.</br>
+ 
+2-High School GPA of 2.0 or higher AND.</br>
+
+3-Require no more than ONE Developmental Course (or qualify for co-requisite delivery of Freshman Composition or College Algebra) AND.</br>
+ 
+4-Either 2.0 GPA, or greater in Core Courses, or ACT Composite of 20* or greater.</br>
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/girl2.jpeg"><img class="img2" src="assets/chile.jpeg"><img class="img3" src="assets/students.jpeg"><img class="img4" src="assets/african.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Alexandria University majors</h1>
+
+<p>
+-Energy Conservation.</br>
+-Environmental Studies.</br>
+-Materials Science.</br>
+-Biotechnology.</br>
+-Information technology.</br>
+-Medicine & Dentistry</br>
+-Other Health</br>
+-Sport Science</br>
+-Agriculture & Forestry</br>
+-Biological Sciences</br>
+-Mathematics & Statistics</br>
+-Chemistry</br>
+-Physics & Astronomy</br>
+-Accounting & Finance</br>
+-Business & Management</br>
+-Economics & Econometrics</br>
+-Law</br>
+-Politics & International Studies (incl Development Studies)</br>
+-Communication & Media Studies</br>
+-Sociology</br>
+
+</div>
+<div class="boss"><center><img src="assets/alexp.jpg"><h3>Dr. Essam El-Kurdi</h3><p>The President Of Alexandria University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/alexgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/rwo4ggMjiFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="http://www.alexu.edu.eg/index.php/ar/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

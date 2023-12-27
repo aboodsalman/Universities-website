@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ain Shams</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">AIN SHAMS</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/ainshams3.jpg"></div>
+<div class="wallpaper2"><img src="assets/egypt.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Ain Shams University</h1>
+  
+  <p>Ain Shams University is an institute of higher education located in Cairo, Egypt. Founded in 1950و the university provides education at the undergraduate, graduate and post-graduate levels.</br></br>
+
+  Ain Shams University was founded in July 1950, the third-oldest non-sectarian native public Egyptian university (ancient Islamic universities such as Al-Azhar and private institutions such as the American University in Cairo are older), under the name of Ibrahim Pasha's University. Its site used to be a former royal palace, called the Zafarana Palace. The two earlier universities of this kind are Cairo University (Fuad I university formerly) and Alexandria University (Farouk I university formerly). When it was first established, Ain Shams University had a number of faculties and academic institutes, which were later developed into a university. The university's academic structure includes 14 faculties, 1 college and 2 high institutes plus 12 centers and special units.</br></br>
+
+  Ain Shams University has eight campuses. Two of them are next to each other, separated by a main road; all of them are in Greater Cairo.</br>
+
+The main campus is in Abbassia, Cairo and houses the Administration and Management at the Saffron Palace, Science Education Development Center, Central Library, Child Hood Center and the University City (students hostel), in addition to the faculties of Computer Science, Science, Law and Art. The opposite Campus houses the faculty of Commerce, Alsun, pharmaceutical Science and Dentistry.</br></br>
+
+The Women's College has its own campus. Faculty of Specific Education, Faculty of Education, and Faculty of Agriculture are each on separate campuses in Abassia, Heliopolis, and Shubra El Kheima, respectively.
+</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Ain Shams admission requirements</h1>
+  <p>1-Open a file for 150 pound + 50 pound guide. </br>
+2-Bachelor's degree (Master's degree). </br>
+3-Bachelor's Degree + Master's Degree (PhD). </br>
+4-Computerized Birth certificate. </br>
+5-Degree of TOEFL degree 500 degrees PhD scientific and literary 450 degrees Master of Science and Literature. </br>
+6-Status statement (original + 02 copies). </br>
+7-The approval of the department on registration and for the assisting body, the approval of the faculty board. </br>
+8-Original Research Plan in Arabic image + Original and English images of two supervisors of masters and doctorate scientific and literary. </br>
+9-(2) Registration form from the Department of Graduate Studies for the master's and doctorate scientific and literary. </br>
+10-(2) Personal photos + photo of the card (national ID) of the master and doctorate scientific and literary. </br>
+11-File to save the sheets. </br>
+Papers shall be completed and delivered before the deadline of the Graduate Studies 12-Committee on the last Sunday of each month for a maximum of five days.
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/african.jpeg"><img class="img2" src="assets/singapore.jpeg"><img class="img3" src="assets/cairo.jpeg"><img class="img4" src="assets/books.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Ain Shams University majors</h1>
+
+<p>
+-medicine
+-Other Health</br>
+-Sport Science</br>
+-Agriculture & Forestry</br>
+-Medicine & Dentistry</br>
+-Biological Sciences</br>
+-Chemistry</br>
+-Physics & Astronomy</br>
+-Accounting & Finance</br>
+-Business & Management</br>
+-Law</br>
+-Sociology</br>
+-Geography</br>
+-History, Philosophy & Theology</br>
+-Architecture</br>
+-Art, Performing Arts & Design</br>
+-Psychology</br>
+</p>
+</div>
+<div class="boss"><center><img src="assets/mahmoud.jpg"><h3>Mahmoud El-Metini</h3><p>The President Of Ain Shams University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/aingps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/FfUS4CWdW4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="http://www.asu.edu.eg/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

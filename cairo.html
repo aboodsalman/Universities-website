@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cairo</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">CAIRO</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/cairo2.jpg"></div>
+<div class="wallpaper2"><img src="assets/cairo2.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Cairo University</h1>
+  
+  <p> Cairo University, known as the Egyptian University from 1908 to 1940, and King Fuad I University from 1940 to 1952) is Egypt's premier public university. Its main campus is in Giza, immediately across the Nile from Cairo. It was founded on 21 December 1908; however, after being housed in various parts of Cairo, its faculties, beginning with the Faculty of Arts, were established on its current main campus in Giza in October 1929. It is the second oldest institution of higher education in Egypt after Al Azhar University, notwithstanding the pre-existing higher professional schools that later became constituent colleges of the university. It was founded and funded as the Egyptian University by a committee of private citizens with royal patronage in 1908 and became a state institution under King Fuad I in 1925. In 1940, four years following his death, the University was renamed King Fuad I University in his honor. It was renamed a second time after the Egyptian revolution of 1952. The University currently enrolls approximately 155,000 students in 20 faculties. It counts three Nobel Laureates among its graduates and is one of the 50 largest institutions of higher education in the world by enrollment. </p>
+</div>
+<div id="admission" class="par">
+</br>
+  <h1>Cairo admission requirements</h1>
+
+<p>
+-To be a regular student in the licentiate and bachelors departments of Cairo University colleges</br>
+-To be a resident of Cairo University within 50 square kilometers.</br>
+-To be unmarried or never married</br>
+-To be successful and transferred to the higher division without material loaded from previous years.</br>
+-He must not have been previously punished by a university campus from the warning</br>
+-That his administrative residence had not ended in the previous year.</br>
+-He should not have financial dues from the previous year.</br>
+-The age of the new student - secondary general - in the beginning of October not exceed 20 years.</br>
+-The age of the new student - technical secondary or intermediate institutes - in the beginning of October not exceed 22 years.</br>
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/students.jpeg"><img class="img2" src="assets/cairo.jpeg"><img class="img3" src="assets/board.jpeg"><img class="img4" src="assets/girl.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Cairo University</h1>
+
+<p>
+-College of Engineering</br>
+-Faculty of medicine</br>
+-College of Computing and Artificial Intelligence</br>
+-faculty of Pharmacy</br>
+-faculty of Agriculture</br>
+-College of Science</br>
+-College of Economics and Political Science</br>
+-College of Information</br>
+-Faculty of Archaeology</br>
+-college of Literature</br>
+-Commerce College</br>
+-College education quality</br>
+-Faculty of Nursing</br>
+-law School</br>
+-School of Physiotherapy</br>
+-Faculty of Dentistry</br>
+-College of Veterinary Medicine</br>
+-Dar Al Uloom College</br>
+-Early Childhood Education College</br>
+-College of Regional and Urban Planning</br>
+-Graduate School of African Studies</br>
+-College of Graduate Studies for Statistical Research</br>
+-National Cancer Institute</br>
+-faculty of Graduate Studies</br>
+-National Institute for Laser Science</br>
+-Open Education Center</br>
+-Cairo University Center for Arabic Language and Culture</br>
+-Scientific Computing Center</br>
+-Graduate School of Nano Technology</br>
+</p>
+</div>
+<div class="boss"><center><img src="assets/mohammad.png"><h3>Muhammad Othman Elkhosht</h3><p>The President Of Cairo University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/cairogps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/3rT_ilxGV3I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://cu.edu.eg/Home" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

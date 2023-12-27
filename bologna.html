@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bologna</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">BOLOGNA</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/bologna2.jpg"></div>
+<div class="wallpaper2"><img src="assets/bologna.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Bologna University</h1>
+<p>It is a public university in Bologna and the oldest university in Europe, founded in 1088. The University of Bologna is also the second largest university in Italy after the University of La Sapienza in Rome. Although the College of Constantinople in the Byzantine Empire is considered the oldest institution of higher education in history, the University of Bologna is considered, according to historians, the oldest university in the modern concept of higher education. The university began as a cathedral school or monastic school linked to the Catholic Church, and then quickly separated as the number of students increased.</p>
+
+<p>In 23 colleges there are about 100,000 registered students. Since 1989, the University has been operating in addition to its headquarters in Bologna, in other departments also in Cesena, Forli, Ravenna, and Rimini. In 1998 a branch was opened in Buenos Aires.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Bologna admission requirements</h1>
+  <h2>You can apply for Unibo Action 1&2 if:</h2>
+<p>-you are in possession of (or about to obtain) a valid qualification for access to your chosen degree programme, issued by an Institution outside of the Italian education system. Students holding a diploma issued by an Italian school established outside Italy can apply as well;</br>  
+-you will take one of the following tests by the application deadline:</br>
+&nbsp;&nbsp;* if you are interested in registering in a First or Single Cycle Degree Programme, the SAT test;</br>
+&nbsp;&nbsp;* if you are interested in registering in a Second Cycle Degree Programme, the GRE test.</br>
+-you are less than 30 years old upon the deadline of the call for application.</p>
+
+<p>The SAT and GRE are aptitude and skills assessment tests which can be taken in authorised centres in several countries around the world. The tests are in English. You must register for the tests on the websites of managing institutions.</p>
+
+<p>You can find more information in the call for applications.</p>
+
+<h2>Timing and methods</h2>
+<p>
+-Publication of the call for applications: 6 February 2020, at 12.00 CET</br>
+-Applications deadline: 30 April 2020, at 12.00 CET</br>
+-Publication of results: May 2020</p>
+</div>
+<div class="images"><img class="img1" src="assets/black.jpeg"><img class="img2" src="assets/sea.jpeg"><img class="img3" src="assets/italy.jpeg"><img class="img4" src="assets/girl2.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Bologna University</h1>
+<p>
+-Economics and Management</br>
+-Education</br>
+-Engineering and Architecture</br>
+-Langueges and Literature</br>
+-Law</br>
+-Medicine</br>
+-Pharmacy and Biotechnology</br>
+-Political Sciences</br>
+-Sciences</br>
+-Sociology</br>
+-Sport Sciences</br>
+-Statistics</br>
+-Veterinary Medicine
+</p>
+</div>
+<div class="boss"><center><img src="assets/francesco.jpg"><h3>Francesco Ubertini</h3><p>The President Of Bologna University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/bolognagps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/VyNjEUSDKzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.unibo.it/en" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

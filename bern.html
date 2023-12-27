@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bern</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">BERN</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/bern2.jpg"></div>
+<div class="wallpaper2"><img src="assets/bern.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Bern University</h1>
+<p>The University of Bern offers top quality across the board: it enjoys special recognition in leading-edge disciplines, is reputed for the excellent quality of its teaching, offers a delightful setting, and a campus environment intimately linked to the social, economic and political life of the city. The university's comprehensive offering includes 8 faculties and some 160 institutes that date back to the XVIth century. Its academic and research organisation prides itself on its interdisciplinarity, exemplified by its five National Centres of Competence in Research: International Trade Regulation, TransCure (Membrane Transport Research), MUST (Molecular Ultrafast Science and Technology), PlanetS (how planet systems are formed and how they develop) and RNA and Disease. The university is actively involved in a wide range of European and worldwide research projects, notably in the field of space research. The city of Bern is listed among the cities that offer the best quality of life in the world: the people of Bern are welcoming and peaceable, and the old town of Bern, nestling in a breath-taking setting surrounded by the Swiss Alps, is listed as a UNESCO world heritage site.
+
+</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Bern admission requirements</h1>
+<p>The admission of a foreign student to the Swiss higher education system requires high grades, language skills, and in some cases practical experience as well.</p>
+
+ <p>The exact requirements for admission of a foreign student into the Swiss education system depend on the type of learning institution and the program the student wishes to pursue. Foreign students may sometimes be required to pass an entrance exam to ensure they are able to handle the workload that awaits them.</p>
+
+ <h2>Undergraduate requirements</h2>
+
+<p>The student should have obtained the highest possible high school diploma that would allow him to enter universities in his country of origin. For more information, see the section on recognition of diplomas below. Swiss universities may require a foreign student to pass an admission exam in which they obtain at least the lowest passing rate, obtain a certificate in the language, or prove that they have received admission from one of the universities recognized in their home country.</p>
+</div>
+<div class="images"><img class="img1" src="assets/students.jpeg"><img class="img2" src="assets/basel.jpeg"><img class="img3" src="assets/class.jpeg"><img class="img4" src="assets/girl.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Bern University</h1>
+<p>
+-Law</br>
+-Medicine</br>
+-Humanities</br>
+-Natural sciences</br>
+-Economics</br>
+-Medicine</br>
+-Natural sciences</br>
+-Economics and business</br>
+-Humanities</br>
+-Art</br>
+-Literature</br>
+-Politics
+</p>
+</div>
+<div class="boss"><center><img src="assets/sebastian.jpg"><h3>Sebastian Wörwag</h3><p>The President Of Bern University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/berngps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/9mFevtSeak0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.unibe.ch/index_eng.html" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

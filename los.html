@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Los Lagos</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">LOS LAGOS</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/los2.jpg"></div>
+<div class="wallpaper2"><img src="assets/los.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Los Lagos University</h1>
+<p>Founded in 1964, University of Los Lagos is a non-profit public higher education institution located in the urban setting of the large town of Osorno (population range of 50,000-249,999 inhabitants), Los Lagos. This institution has also branch campuses in the following location(s): Puerto Montt. Officially accredited and/or recognized by the Comisión Nacional de Acreditación, Chile (National Accreditation Commission), Universidad de los Lagos (ULA) is a medium-sized (uniRank enrollment range: 9,000-9,999 students) coeducational higher education institution. Universidad de los Lagos (ULA) offers courses and programs leading to officially recognized higher education degrees such as pre-bachelor degrees (i.e. certificates, diplomas, associate or foundation degrees), bachelor degrees, master degrees, doctorate degrees in several areas of study. See the uniRank degree levels and areas of study matrix below for further details. This 56 years old higher-education institution has a selective admission policy based on entrance examinations. International students are welcome to apply for enrollment.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Los Lagos admission requirements</h1>
+<p>When applying for admission to University of Los Lagos in Chile you should prepare all required documents. Request a list of necessary documents directly from a university, as it may vary for different countries. Using our live chat, you can also ask for sample documents. (Passport, Contact No, Email Id, Photographs, Proof of fee payment, Application fee, Criminal background check, Resume/CV (graduate, postgraduate), Local Language Certificate, Health and Life Insurance, Student visa, Declaration for financial support, Birth Certificate, Motivation Letter, Research proposal outline (MA, PhD))</p>
+</div>
+<div class="images"><img class="img1" src="assets/los.jpeg"><img class="img2" src="assets/girl.jpeg"><img class="img3" src="assets/students.jpeg"><img class="img4" src="assets/black.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>majors of the Los Lagos University</h1>
+<p>
+-Aboriginal / Indigenous People Studies.</br>
+-African Studies.</br>
+-American & Caribbean Studies.</br>
+-Ancient and Modern Languages.</br>
+-Asian Studies.</br>
+-English Studies.</br>
+-European Studies.</br>
+-French Studies.</br>
+-Mathmatics.</br>
+-Physics.</br>
+-Economys and Management.</br>
+-East Asian Studies.</br>
+-Ecology and Evolutionary Biology.</br>
+-Politics.</br>
+-Computer Science.</br>
+-Psychology.</br>
+-Religion.</br>
+-Slavic Languages and Literatures.</br>
+-Sociology.
+</p>
+</div>
+<div class="boss"><center><img src="assets/becerra.jpg"><h3>Xavier Becerra</h3><p>The President Of Los Lagos University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/losgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/5Zz7ii6IHSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="http://www.ulagos.cl/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

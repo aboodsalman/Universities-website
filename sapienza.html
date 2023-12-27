@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sapienza</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">SAPIENZA</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/sapienza2.jpg"></div>
+<div class="wallpaper2"><img src="assets/roma2.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Sapienza University</h1>
+<p>The Sapienza University of Rome, also called simply Sapienza or the University of Rome, is a collegiate research university that is located in Rome, Italy. Formally known as Università degli Studi di Roma "La Sapienza", it is one of the largest European universities by enrollments and one of the oldest in history, founded in 1303. The University is one of the most prestigious Italian universities and in the world, commonly ranking first in national rankings and in Southern Europe. In 2018 it ranked 1st in the world for Classics and Ancient history.</p>
+
+<p>Most of the Italian ruling class studied at Sapienza. Sapienza educated numerous notable alumni, including many Nobel laureates, Presidents of the European Parliament and European Commissioners, heads of several nations, notable religious figures, scientists and astronauts. In September 2018, it was included in the top 100 of the QS World University Rankings Graduate Employability Ranking.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Sapienza admission requirements</h1>
+<p>To cope with the large demand for admission to the university courses, some faculties hold a series of entrance examinations. The entrance test often decides which candidates will have access to the undergraduate course. For some faculties, the entrance test is only a mean through which the administration acknowledges the students' level of preparation. Students that do not pass the test can still enroll in their chosen degree courses but have to pass an additional exam during their first year.</p>
+</div>
+<div class="images"><img class="img1" src="assets/books.jpeg"><img class="img2" src="assets/board.jpeg"><img class="img3" src="assets/roma.jpeg"><img class="img4" src="assets/sao.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Majors of the Sapienza University</h1>
+<p>
+-Architecture and Design</br>
+-Ancient World Studies</br>
+-Basic and Applied Sciences for Engineering</br>
+-Biochemical Sciences "Alessandro Rossi Fanelli"</br>
+-Biology and Biotechnology "Charles Darwin"</br>
+-Chemical Engineering Materials Environment</br>
+-Chemistry</br>
+-Chemistry and Technology of Drugs</br>
+-Civil, Building and Environmental Engineering</br>
+-Clinical and Molecular Medicine</br>
+-Communication and Social Research</br>
+-Computer, Control and Management Engineering "Antonio Ruberti"</br>
+-Computer Science</br>
+-Earth Sciences</br>
+-Economics and Law</br>
+-Environmental Biology</br>
+-European, American and Intercultural Studies</br>
+-History, Anthropology, Religion, Arts and Performing Arts</br> 
+-History, Representation and Restoration of Architecture</br>
+-Human Neuroscience </br>
+-Italian Institute of Oriental Studies</br>
+-Law and Economics of Productive Activities</br>
+-Legal Studies</br>
+-Literature and Modern Cultures</br> 
+-Management</br>
+-Mathematics "Guido Castelnuovo"</br>
+-Mechanical and Aerospace Engineering</br>
+-Philosophy</br>
+-Physics</br>
+-Political Science</br>
+-Psychology</br>
+-Public Health and Infectious Diseases</br>
+-Social and Developmental Psychology</br>
+-Social Sciences and Economics</br>
+-Structural and Geotechnical Engineering</br>
+-Surgical Sciences</br>
+-Translational and Precision Medicine
+</p>
+</div>
+<div class="boss"><center><img src="assets/rector.jpg"><h3>Rector Gaudio</h3><p>The President Of Sapienza University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/sapienzagps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/6ztXOnK2w6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.uniroma1.it/en/pagina-strutturale/home" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hong Kong</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">HONG KONG</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/hong2.jpg"></div>
+<div class="wallpaper2"><img src="assets/hong2.jpeg"></div>
+<div class="text">
+	<div id="definition" class="par">
+	</br>
+  <h1>Hong Kong University</h1>
+  
+  <p> The University of Hong Kong (HKU) is a public research university in Hong Kong. Founded in 1911, its origins trace back to the Hong Kong College of Medicine for Chinese, which was founded in 1887. It is the oldest tertiary institution in Hong Kong. Also, HKU is the first university established by the British Empire in East Asia. HKU is one of the best universities in Hong Kong and Asia.</p>
+
+<p>As of 2019, HKU ranks second in Asia by QS and fourth by THE, and around top 30 internationally. It has been commonly regarded as one of the most internationalized universities in the world as well as one of the most prestigious universities in Asia. Today, HKU has ten academic faculties with English as the main language of instruction. HKU also ranks highly in the sciences, dentistry, biomedicine, education, humanities, law, economics, business administration, linguistics, political science, and the social sciences.</p>
+
+<p>The University of Hong Kong was also the first team in the world to successfully isolate the coronavirus, the causative agent of SARS.</p>
+</div>
+<div id="admission" class="par">
+	</br>
+  <h1>Hong Kong admission requirements</h1>
+
+<p>
+Admission to HKU is highly competitive. In 2016, the university received around 40,000 applications for undergraduate studies, over 16,000 of which were from outside the Hong Kong schools' system. For Mainland China applicants, the enrollment rate was 1 student for every 21 applications. According to a survey done by the Education18.com (The Hong Kong Education Net), HKU enrolled students with the best performance in HKDSE examination in 2012. Internationally, applicants with more than 5 A*s in their GCE A-Levels, 75/75 in the Taiwan GSAT, 45/45 in IB, and 16 5** Zhuangyuan (狀元) (the top Gaokao scoring students in their province or city in mainland China) are amongst those matriculated into the University. The latest Global Admissions Profile, with information and data about last year's admission and current international opportunities for those admitted, and the International Admissions Brochure, with information about applications for admission, are available on the HKU website.</p>
+
+<p>Undergraduate candidates are selected according to their relative merit in the local public examination (HKDSEE) and apply online via JUPAS. Other applicants, including overseas students or ones taking other examinations, are classified as non-JUPAS applicants who are required to apply via the official website,[62] where postgraduate applications may also be made.
+</p>
+</div>
+<div class="images"><img class="img1" src="assets/study.jpg"><img class="img1" class="img2" src="assets/hongkong.jpeg"><img class="img3" src="assets/african.jpeg"><img class="img4" src="assets/girl.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Hong Kong University</h1>
+
+<p>
+-Business & Management</br>
+-Accounting & Finance</br>
+-Economics & Econometrics</br>
+-Computer Science</br>
+-Education</br>
+-General Engineering</br>
+-Mechanical & Aerospace Engineering</br>
+-Civil Engineering</br>
+-Electrical & Electronic Engineering</br>
+-Psychology</br>
+-Art, Performing Arts & Design</br>
+-History, Philosophy & Theology</br>
+-Architecture</br>
+-Languages, Literature & Linguistics</br>
+-Communication & Media Studies</br>
+-Politics & International Studies (incl Development Studies)</br>
+-Geography</br>
+-Sociology</br>
+-Law</br>
+-Chemistry</br>
+-Geology, Environmental, Earth & Marine Sciences</br>
+-Mathematics & Statistics</br>
+-Physics & Astronomy</br>
+-Other Health</br>
+-Medicine & Dentistry</br>
+-Biological Sciences</br>
+</p>
+</div>
+<div class="boss"><center><img src="assets/zhang.jpg"><h3> Xiang Zhang</h3><p>The President Of Hong Kong University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/assets/honggps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/KGoMpPW_y0Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.hku.hk/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+<p>Please connect social area for Any update</br>
+Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

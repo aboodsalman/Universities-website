@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MIT</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">MASSACHUSETTS</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/mas2.jpg"></div>
+<div class="wallpaper2"><img src="assets/san.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Massachusetts Institute of Technology</h1>
+  
+  <p>It is a university in Cambridge, Massachusetts, founded in 1861. This institute is a world-class institute. The institute has employed many great scholars such as Norbert Wiener; its primary mission is education and research in the practical applications of science and technology, and the institute is divided into five schools and one college that contains 34 academic disciplines and 53 laboratories. The institute played a major role in biomedical engineering, in the development of computers, and in the navigation devices used in missiles and spacecraft. It has 10,000 students of multiple nationalities. The Institute's 960 faculty are known for excellence and excellence in the field of advanced technical research and its applications, with 85 of them being awarded the Nobel Prize.
+</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Massachusetts admission requirements</h1>
+<h2>First: training courses and scientific skill</h2>
+<p>If you want to enroll in college at the institute, you must be familiar with some skills to enhance your chances of being accepted, namely:</p>
+
+<p>-You have studied English for at least four years.</br>
+-Being familiar with the rules and laws of mathematics up to at least the level of differential and integral studies, especially when wanting to enroll in engineering school.</br>
+-You have also studied and are familiar with the most important laws, theories, and rules of chemistry, biology, and physics.</br>
+-If you want to go to theoretical schools, you should study history and social studies for at least two years.</p>
+
+<h2>Second: Pass some tests</h2>
+<p>For international or non-English speaking students, they must pass the following tests:</p>
+
+<p>Successfully pass the SAT test, or pass the ACT test with only two SAT subjects (mathematics with chemistry, biology, or physics).</br>
+Alternatively, the TOEFL can be taken in the English language with two SAT exams, one in mathematics and one in science.</p>
+</div>
+<div class="images"><img class="img1" src="assets/class.jpeg"><img class="img2" src="assets/sea.jpeg"><img class="img3" src="assets/board.jpeg"><img class="img4" src="assets/girl2.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>massatchusetts University majors</h1>
+
+<p>-Business and Management</br>
+-Education and training</br>
+-Social Studies and Media</br>
+-Health and Medicine</br>
+-Humanities</br>
+-Applied and pure sciences</br>
+-Creative arts and design</br>
+-Law</br>
+-Engineering</br>
+-Architecture and Building Computer Science and Information Technology MBA</br></p>
+</div>
+<div class="boss"><center><img src="assets/rafael.jpg"><h3>Rafael Reif</h3><p>The President Of MIT</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/masgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/u0SFyokPoBk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.umass.edu/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

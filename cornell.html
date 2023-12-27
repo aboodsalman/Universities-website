@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cornell</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">CORNELL</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/cornell2.jpg"></div>
+<div class="wallpaper2"><img src="assets/newyork.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Cornell University</h1>
+  
+  <p>It is an American private university founded in 1865 in Ithaca, New York. Cornell University is considered one of the oldest and richest American universities, despite being the latest member of the American University's Ivy League. This association includes the best and most prestigious American universities that have won Nobel Prizes, and 43 people, who were and still have a link to the university, won Nobel Prizes in all fields.</p>
+
+<p>Cornell University is often ranked among the top ten universities in the Americas, and it is ranked among the top twenty universities in the world in various international rankings.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Cornell admission requirements</h1>
+
+  <h2>There are four conditions for admission to Cornell University:</h2>
+
+<p>First: The need for a student applying to study at the university to obtain a high school diploma or (H.S.D certificate).</p>
+
+<p>Second: The student must pass the TOFEL or IELTS test, as it is one of the most prominent tests for measuring and mastering the English language level, but they are distinct tests that cannot be passed easily except after careful study of the language, and therefore some American universities give students in other universities some scholarships Educational program to pass and complete one of these exams.</p>
+
+<p>Third: The student must have proof of financial ability, as the nature of study in American universities needs to pay an annual amount of money, so the student must prove his ability to pay the costs of the study by providing a document proving that he has a bank account.</p>
+
+<p>Fourth: The university requires the availability of some documents to complete postgraduate studies, as it requires a curriculum vitae and research plan for the subject of study, in addition to providing the student with a certificate of experience in the field in which he would like to complete postgraduate studies and a letter of recommendation from one of the teachers and professors he has learned before.</p>
+</div>
+<div class="images"><img class="img1" src="assets/class.jpeg"><img class="img2" src="assets/rock.jpeg"><img class="img3" src="assets/study.jpg"><img class="img4" src="assets/read.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Cornell University colleges</h1>
+
+<p>-College of Architecture</br>
+-College of Arts and Sciences</br>
+-College of Engineering</br>
+-College of Hotel Management</br>
+-faculty of Agriculture</br>
+-College of Human Ecology</br>
+-College of Industry and Labor Relations</br>
+-law School</br>
+-Johnson College of Management</br>
+-Will College of Medicine (New York City)</br>
+-Weill College of Medicine (Qatar)</br>
+-Will College of Medical Sciences (New York City)</br>
+-College of Veterinary Medicine</br></p>
+</div>
+<div class="boss"><center><img src="assets/martha.jpg"><h3>Martha E. Pollack</h3><p>The President Of Cornell University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/cornellgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/M8KLnvgk6Mw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.cornell.edu/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

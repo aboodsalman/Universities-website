@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Amsterdam</title>
+  <link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">AMSTERDAM</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/amsterdam5.jpg"></div>
+<div class="wallpaper2"><img src="assets/holand.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Amsterdam University</h1>
+  
+  <p>The University of Amsterdam (abbreviated as UvA, Dutch: Universiteit van Amsterdam) is a public university located in Amsterdam, Netherlands. The UvA is one of two large, publicly funded research universities in the city, the other being the Vrije Universiteit Amsterdam (VU). Established in 1632 by municipal authorities and later renamed for the city of Amsterdam, the University of Amsterdam is the third-oldest university in the Netherlands. It is one of the largest research universities in Europe with 31,186 students, 4,794 staff, 1,340 PhD students[1] and an annual budget of €600 million. It is the largest university in the Netherlands by enrollment. The main campus is located in central Amsterdam, with a few faculties located in adjacent boroughs. The university is organised into seven faculties: Humanities, Social and Behavioural Sciences, Economics and Business, Science, Law, Medicine, Dentistry.</br></br>
+
+The University of Amsterdam has produced six Nobel Laureates and five prime ministers of the Netherlands. The University of Amsterdam has been placed in the top 100 universities in the world by four major ranking tables. By the QS World University Rankings it was ranked 50th in the world, 15th in Europe, and 1st in the Netherlands in 2014. The university placed in the top 50 worldwide in seven fields in the 2011 QS World University Rankings in the fields of linguistics, sociology, philosophy, geography, science, Economics and econometrics, and accountancy and finance. In 2018 and 2019 the two departments of Media and Communication were commonly ranked 1st in the world by subject by QS Ranking.</br></br>
+
+Close ties are harbored with other institutions internationally through its membership in the League of European Research Universities (LERU), the Institutional Network of the Universities from the Capitals of Europe (UNICA), European University Association (EUA), the International Student Exchange Programs (ISEP), and Universitas 21.</p>
+</div>
+  <div class="images"><img class="img1" src="assets/class.jpeg"><img class="img2" src="assets/amsterdam.jpeg"><img class="img3" src="assets/board.jpeg"><img class="img4" src="assets/girl2.jpeg"></div>
+  <div id="admission" class="par">
+  </br>
+  <h1>Application for admission:</h1>
+
+  <p>In order to be eligible for admission to AUC, you will need to meet the following minimum requirements (follow the links for more details):</br>
+
+ 
+
+1. Secondary school diploma equivalent to the Dutch VWO</br>
+2. A very good level of written and spoken English</br>
+3. Good mathematics skills</br></br>
+
+
+Additional characteristics
+In addition, the AUC Admissions Committee looks for students with the following characteristics:</br>
+
+1-academic excellence: you must demonstrate your ability to meet the academic demands of the AUC programme.</br>
+2-motivation and ambition to study an intensive and broad programme.</br>
+3-commitment to contribute to AUC's international student and campus life.</br></p>
+<h3>Conditional offers</h3>
+<p>If you do not (yet) meet the admission requirements, then any offer of a place at AUC will be on a conditional basis. The conditions will be specified in the letter offering you a place. You will have to meet those conditions before you can be admitted.</br></br>
+
+AUC is a selective programme with a limited number of places and we prioritise prospective students who have not previously completed a Bachelor's degree. If you already have (or are about to complete) a Bachelor's degree, you can still apply to AUC, but your chances of selection will be lower.</p>
+</div>
+<div class="boss"><center><img src="assets/geert.jpg"><h3>Geert ten Dam</h3><p>The President Of Amsterdam University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/amsterdamgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/n3J9OKTsCSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.uva.nl/en" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

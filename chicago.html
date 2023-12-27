@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chicago</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">CHICAGO</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/chicago2.jpg"></div>
+<div class="wallpaper2"><img src="assets/chicago2.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Chicago University</h1>
+  
+  <p>It is a private university located in the suburb of Hyde Park and was established in 1890. The first president and member of the university faculty was Professor William Rene Harper. The university holds the top ten position in several US and international arrangements for universities.</p>
+
+<p>The academic year of the university is run on a quarterly basis and is divided into four semesters: Summer (June - August), Fall (September - December), Winter (January - March), and Spring (April - June).
+
+Full-time undergraduate students must take three to four courses approximately every three months before their quarterly academic breaks.
+
+The school year usually begins in late September and ends in mid-June. The sports team colors are maroon and white. Known as a maroon, the mascot is called Phil Phoenix.</p>
+</br>
+</div>
+<div id="admission" class="par">
+</br>
+  <h1>Chicago admission requirements</h1>
+
+  <p>The rate of student acceptance to study at the University of Chicago is 8%, the lowest in college history and the lowest in the country.
+</br></br>
+In 2018, the University of Chicago became the first major research university to no longer need SAT / ACT degrees from college applicants. Tuition and fees at University of Chicago are estimated at 2019-2020 at 57,263. The average GPA at the University of Chicago is 4.29. The average score for a SAT score at University of Chicago is 1540 on a SAT 1600 scale.
+</br></br>
+On the old 2400 SAT, this corresponds to an average SAT score of 2260. The average ACT degree at the University of Chicago is 34. This result makes the University of Chicago very competitive for ACT degrees.
+</br></br>
+General, electronic and global applications are available and accepted although additional forms are required.
+An essay or personal statement must be submitted to all new students with a minimum of 2 letters of recommendation. A $ 75 fee is required and fee exemption is available.
+</br></br>
+Test requirements include; results for SAT, ACT, SAT, ACT (optional), or SAT tests in Office prior to February 3. Subjects required include English, mathematics, science, foreign languages, social studies, history, and options.</p>
+</div>
+<div class="images"><img class="img1" src="assets/study.jpg"><img class="img2" src="assets/chicago.jpeg"><img class="img3" src="assets/read.jpeg"><img class="img4" src="assets/books.jpeg"></div>
+<div id="majors" class="par">
+</br>
+<h1>Chicago University majors</h1>
+
+<p>Anthropology, Architectural Studies, Art History, Astronomy and Astrophysics, Big Problems, Biological Chemistry, Biological Sciences, Chemistry, Chicago Studies, Cinema and Media Studies, Classical Studies, Clinical and Translational Science, Comparative Human Development, Comparative Literature, Comparative Race and Ethnic Studies, Computational and Applied Mathematics, Computational Neuroscience, Computer Science, Creative Writing, Digital Studies of Language, Culture, and History, East Asian Languages and Civilizations, Economics, English Language and Literature, Environmental and Urban Studies, Environmental Science, Fundamentals: Issues and Texts, Gender and Sexuality Studies, Geographical Studies, Geophysical Sciences, Germanic Studies, Global Studies, History, Philosophy, and Social Studies of Science and Medicine, Human Rights, Institute for the Formation of Knowledge, Interdisciplinary Studies in the Humanities, Jewish Studies, Joint BA/MA in Computational Social Science, Joint BA/MA in International Relations, Joint BA/MA in Middle Eastern Studies, Joint BA/MA in Social Service Administration, Joint BA/MA in the Humanities, Joint BA/MA in the Social Sciences, Joint BA/MAT in Education and Teaching Certification, Joint BA/MS in Computational Analysis and Public Policy, Latin American and Caribbean Studies, Law, Letters, and Society, Linguistics, Mathematics, Media Arts and Design, Medieval Studies, Molecular Engineering, Music, Near Eastern Languages and Civilizations, Neuroscience, Norwegian Studies, Philosophy, Physics, Political Science, Professional Option: Medicine, Psychology, Public Policy Studies, Religious Studies, Renaissance Studies, Romance Languages and Literatures, Russian and East European Studies, Sociology, South Asian Languages and Civilizations, Statistics, Theater and Performance Studies, Tutorial Studies, Visual Arts</p>
+</div>
+<div class="boss"><center><img src="assets/robert.jpg"><h3>Robert Zimmer</h3><p>The President Of Chicago University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/chicagogps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/z58g45-GPsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.uchicago.edu/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='majors'){
+  var elmnt = document.getElementById("majors");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

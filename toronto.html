@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toronto</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">TORONTO</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/toronto2.jpg"></div>
+<div class="wallpaper2"><img src="assets/toronto.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Toronto University</h1>
+<p>The University of Toronto is a public research university in Toronto, Ontario, Canada, located on the grounds that surround Queen's Park. It was founded by royal charter in 1827 as King's College, the first institution of higher learning in the colony of Upper Canada. Originally controlled by the Church of England, the university assumed its present name in 1850 upon becoming a secular institution. As a collegiate university, it comprises eleven colleges each with substantial autonomy on financial and institutional affairs and significant differences in character and history. The university also operates two satellite campuses located in Scarborough and Mississauga.</p>
+
+<p>Academically, the University of Toronto is noted for influential movements and curricula in literary criticism and communication theory, known collectively as the Toronto School. The university was the birthplace of insulin and stem cell research, and was the site of the first practical electron microscope, the development of deep learning, multi-touch technology, the identification of the first black hole Cygnus X-1, and the development of the theory of NP-completeness. It receives the most annual scientific research funding of any Canadian university and is one of two members of the Association of American Universities outside the United States, the other being McGill University.</p>
+</div>
+<div id="admission" class="par">
+  </br>
+  <h1>Toronto admission requirements</h1>
+<p>U of T offers 700+ undergraduate programs in various fields of study. Around 24% of the total undergraduate enrollment is international students. All the applicants are advised to complete their applications on time and provide all the required documents by the deadlines.</p>
+
+<h2>Admission Requirements- The general admission requirements include:</h2>
+<p>
+-Completed application form.</br>
+-Payment of non-refundable application fee of 180 CAD.</br>
+-All academic transcripts from high school/ senior secondary levels.</br>
+-Completed senior level or grade 12 level course.</br>
+-English Language Requirements- TOEFL/ IELTS/ Cambridge C1 or C2/ CAEL, etc.</br>
+-Self-reported grades form.</br>
+-Standardized test scores.</p>
+</div>
+<div class="images"><img class="img1" src="assets/girl2.jpeg"><img class="img2" src="assets/study.jpg"><img class="img3" src="assets/sea.jpeg"><img class="img4" src="assets/african.jpeg"></div>
+<div id="colleges" class="par">
+</br>
+<h1>Colleges of the Toronto University</h1>
+<p>
+-Applied Science And Engineering.</br>
+-Law.</br>
+-Education.</br>
+-Arcchitecture Landscape, And Design.</br>
+-Arts And Science.</br>
+-Continuing Studies.</br>
+-Dentistry.</br>
+-Information.</br>
+-Kinesiology And Physical Education.</br>
+-Management.</br>
+-Medicine.</br>
+-Music.</br>
+-Nursing.</br>
+-Pharmacy.</br>
+-Puplic Health.</br>
+-Social Work.</br>
+-Universty Of Toronto Mississauga.</br>
+-University Of Toronto scarporough.
+</p>
+</div>
+<div class="boss"><center><img src="assets/meric.jpg"><h3>Meric Gertler</h3><p>The President Of Toronto University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/torontogps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/N847DRq0epI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.utoronto.ca/" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='colleges'){
+  var elmnt = document.getElementById("colleges");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+
+</body>
+</html>

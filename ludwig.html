@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ludwig</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">LUDWIG</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/ludwig2.jpg"></div>
+<div class="wallpaper2"><img src="assets/munich.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par">
+  </br>
+  <h1>Ludwig University</h1>
+  
+  <p>Ludwig Maximilian University of Munich (also referred to as LMU or the University of Munich, in German: Ludwig-Maximilians-Universität München) is a public research university located in Munich, Germany.</br></br>
+
+The University of Munich is Germany's sixth-oldest university in continuous operation.[n 1] Originally established in Ingolstadt in 1472 by Duke Ludwig IX of Bavaria-Landshut, the university was moved in 1800 to Landshut by King Maximilian I of Bavaria when Ingolstadt was threatened by the French, before being relocated to its present-day location in Munich in 1826 by King Ludwig I of Bavaria. In 1802, the university was officially named Ludwig-Maximilians-Universität by King Maximilian I of Bavaria in his as well as the university's original founder's honour.</br></br>
+
+The University of Munich is associated with 42 Nobel laureates (as of October 2019). Among these were Wilhelm Röntgen, Max Planck, Werner Heisenberg, Otto Hahn and Thomas Mann. Pope Benedict XVI was also a student and professor at the university. The LMU has recently been conferred the title of "University of Excellence" under the German Universities Excellence Initiative.</br></br>
+
+LMU is currently the second-largest university in Germany in terms of student population; in the winter semester of 2015/2016, the university had a total of 51,025 matriculated students. Of these, 8,671 were freshmen while international students totalled 7,812 or almost 15% of the student population. As for operating budget, the university records in 2017 a total of 682.0 million euros in funding without the university hospital; with the university hospital, the university has a total funding amounting to approximately 1.8 billion euros</p>
+</div>
+<div class="images"><img class="img1" src="assets/read.jpeg"><img class="img2" src="assets/ludwig3.jpeg"><img class="img3" src="assets/girl.jpeg"><img class="img4" src="assets/study.jpg"></div>
+  <div id="admission" class="par">
+  </br>
+  <h1>Application for admission:</h1>
+
+  <p>International applicants (without German nationality) who wish to study at the LMU will generally need to submit their application to the International Office. However, in certain cases they will need to apply to the Office of the University Registrar or the Foundation for University Admissions. Please first find out #where you need to apply! </br></br>
+
+ome documents must be attached as officially certified copies (not original certificates). In some cases, you will also need to submit an officially certified translation. More about -> Officially certified documents and translations.</p>
+ </div>
+<div class="boss"><center><img src="assets/bernd.png"><h3>Bernd Huber</h3><p>The President Of Ludwig University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/ludwiggps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/Fznc-x4feG0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.en.uni-muenchen.de/index.html" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>

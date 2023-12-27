@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Utrecht</title>
+<link rel="shortcut icon" href="assets/school.ico" type="image/x-icon">‏
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/harvard.css">
+</head>
+<body>
+<div class="izz">
+  <input type="text" class="search" required="" onchange="showDiv(this)" placeholder="&nbsp;&nbsp;Search..." name="search">
+  <button type="submit" class="searching"><i class="fa fa-search" style="color:gray;"></i></button>
+  <p class = "name">UTRECHT</p>
+  <p class="logo">TOP<br>UNIVERSITY</p>
+  <img src="assets/school.png" class="photo"/>
+  <a href="index.html" style="background-color:#ff9900; border-radius:4px; color:#3f3f3f; font-weight:600; margin-left:240px;">MAIN PAGE</a>
+  <a href="europe.html">EUROPE</a>
+  <a href="america.html">AMERICA</a>
+  <a href="asia.html">ASIA & AFRICA</a>
+  <a href="contact.html">CONTACT US</a>
+</div>
+<div class="wallpaper"><img src="assets/utrecht3.jpg"></div>
+<div class="wallpaper2"><img src="assets/utrecht2.jpeg"></div>
+<div class="text">
+  <div id="definition" class="par" class="par">
+  </br>
+  <h1>Utrecht University</h1>
+  
+  <p>Utrecht University (UU; Dutch: Universiteit Utrecht, formerly Rijksuniversiteit Utrecht) is a university in Utrecht, the Netherlands. Established 26 March 1636, it is one of the oldest universities in the Netherlands. In 2016, it had an enrolment of 29,425 students, and employed 5,568 faculty and staff. In 2011, 485 PhD degrees were awarded and 7,773 scientific articles were published. The 2013 budget of the university was €765 million.</br></br>
+
+Utrecht University has been placed in the top 100 universities in the world by four major ranking tables. The university is rated as the best university in the Netherlands by the Shanghai Ranking of World Universities 2013, and ranked as the 13th best university in Europe and the 52nd best university of the world.</br></br>
+
+The university's motto is "Sol Iustitiae Illustra Nos," which means "Sun of Justice, shine upon us." This motto was gleaned from a literal Latin Bible translation of Malachi 4:2. (Rutgers University, having a historical connection with Utrecht University, uses a modified version of this motto.) Utrecht University is led by the University Board, consisting of prof. dr. Henk Kummeling (Rector Magnificus), prof. dr. Anton Pijpers (Chair) and prof. mr. Annetje Ottow (Vice Chair).</p>
+</div>
+  <div class="images"><img class="img1" src="assets/class.jpeg"><img class="img2" src="assets/utrecht.jpeg"><img class="img3" src="assets/girl.jpeg"><img class="img4" src="assets/sao.jpeg"></div>
+<div id="admission" class="par">
+</br>
+  <h1>Entry Requirements:</h1>
+
+  <p>Candidates must fit a general profile and meet a set of minimum requirements regarding their diploma and English proficiency to be accepted. The same assessment criteria hold for all students and are applied fairly and impartially.</p>
+  <h1>Application procedure</h1>
+<p>These are steps you need to take to submit an application for a Bachelor’s programme at Utrecht University. We strongly recommend that you read through this guide thoroughly before starting your application.</br></br>
+1-Choose your Bachelor’s programme and read the entry requirements</br>
+2-Check the deadlines</br>
+3-Prepare your documents</br>
+4-Submit an enrolment application in Studielink</br>
+5-Submit your documents and pay the application fee in OSIRIS Online Application</br></p>
+</div>
+<div class="boss"><center><img src="assets/anton.jpg"><h3>Anton Pijpers</h3><p>The President Of Utrecht University</p></center></div>
+<button type="button" class="button" onclick='document.getElementById("mind").innerHTML="<img class=gps src=assets/utrechtgps.jpg>"'>
+The Location by GPS</button>
+</br>
+<iframe class="video" id="campus tour" src="https://www.youtube.com/embed/U_Nx9Z39MWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</br>
+<button type="button" class="click" onclick='document.getElementById("mind").style.display="none"'><p id="mind"></p></button>
+<p>click <a href="https://www.uu.nl/en" target="_blank" style="color:#ff9900;"> here </a> for university's website</p>
+<center><p class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</p></center>
+</div>
+<div class="icons">
+<center>
+  <p>Please connect social area for Any update</br>
+  Follow us on:</p>
+<a href="https://www.facebook.com"><img src="assets/facebook.png"></a>
+<a href="https://www.instagram.com"><img src="assets/instagram.png"></a>
+<a href="https://www.twitter.com"><img src="assets/twitter.png"></a>
+</center>
+</div>
+<script type="text/javascript">
+function showDiv(select){
+if(select.value=='campus tour'){
+  var elmnt = document.getElementById("campus tour");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='admission'){
+  var elmnt = document.getElementById("admission");
+  elmnt.scrollIntoView();
+}
+else if(select.value=='definition'){
+  var elmnt = document.getElementById("definition");
+  elmnt.scrollIntoView();
+}
+}
+</script>
+</body>
+</html>
